@@ -24,7 +24,7 @@ def save
 end
 
 def self.clear
- @@array.clear
+ @@array.clear()
 end
 
 
