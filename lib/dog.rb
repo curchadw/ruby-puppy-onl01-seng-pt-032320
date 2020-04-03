@@ -23,8 +23,8 @@ def save
   @@all.push(self) 
 end
 
-def self.clear
- self.clear()
+def self.clear_all
+ @@all.clear()
 end
 
 
