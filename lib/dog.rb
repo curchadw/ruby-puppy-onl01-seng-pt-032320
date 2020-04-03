@@ -6,7 +6,7 @@ attr_accessor :name
 
 def initialized(name)
   @name = name
-  @@all.push(self) 
+  save
 end
 
 def self.all
@@ -17,6 +17,14 @@ def self.print_all
   @@all.each do |dog|
     puts"#{dog}"
   end
+end
+
+def save
+  @@all.push(self) 
+end
+
+def self.clear
+ @@array
 end
 
 
