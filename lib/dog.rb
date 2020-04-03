@@ -24,7 +24,7 @@ def save
 end
 
 def self.clear
- @@all.clear()
+ self.clear()
 end
 
 
