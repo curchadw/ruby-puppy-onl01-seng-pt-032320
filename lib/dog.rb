@@ -15,7 +15,8 @@ end
 
 def self.print_all
   @@all.each do |dog|
-    puts"#{@@all.map(&:name).join(", ")}"
+    puts"#{dog.map(&:name)}"
+    
   end
 end
 
